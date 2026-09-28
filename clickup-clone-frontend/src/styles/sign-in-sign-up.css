@@ -1,0 +1,104 @@
+.sign-in-sign-up .card {
+  width: 28rem;              /* w-md → 448px */
+  max-width: 64rem;          /* max-w-4xl → 1024px */
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),
+              0 4px 6px -2px rgba(0,0,0,0.05); /* shadow-lg */
+  border-radius: 0.5rem;     /* rounded-lg → 8px */
+}
+
+.sign-in-sign-up .title {
+  text-align: center;
+}
+
+.sign-in-sign-up .title h1 {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700;    /* font-bold */
+}
+
+.sign-in-sign-up .subtitle {
+  text-align: start;
+  margin-top: 2rem; /* mt-8 */
+}
+
+.sign-in-sign-up .subtitle h2 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;    /* font-bold */
+}
+
+.sign-in-sign-up .subtitle p {
+  color: #4B5563; /* Tailwind default gray-700 */
+  margin-bottom: 1rem; /* mb-4 */
+  font-size: 1.125rem; /* text-lg */
+}
+
+.sign-in-sign-up .input-label {
+  font-size: 0.875rem;       /* text-sm → 14px */
+  line-height: 1.25rem;      /* text-sm line-height → 20px */
+  font-weight: 500;          /* font-medium */
+  color: #111827;          /* Tailwind default gray-900 */
+}
+
+.sign-in-sign-up .input-field {
+  width: 100%;                /* w-full */
+  border-width: 1px;          /* border */
+  border-style: solid;
+  border-color: #d1d5db;      /* Tailwind default gray-300 */
+  border-radius: 0.25rem;     /* rounded (4px) */
+  padding-left: 0.75rem;      /* px-3 (12px) */
+  padding-right: 0.75rem;     /* px-3 (12px) */
+  padding-top: 0.5rem;        /* py-2 (8px) */
+  padding-bottom: 0.5rem;     /* py-2 (8px) */
+  background-color: #FCFCFC; /* Tailwind default gray-50 */
+}
+
+.sign-in-sign-up .button {
+  margin-top: 1rem;        /* mt-4 → 16px */
+  width: 100%;             /* w-full */
+  color: #ffffff;          /* text-white */
+  padding-top: 0.5rem;     /* py-2 → 8px */
+  padding-bottom: 0.5rem;  /* py-2 → 8px */
+  border-radius: 0.25rem;  /* rounded → 4px */
+  font-weight: 500;        /* optional: medium weight for buttons */
+  text-align: center;      /* center text inside button */
+}
+
+.sign-in-sign-up .tos-pp  {
+  margin-top: 1.5rem;     /* mt-6 → 24px */
+  margin-bottom: 1.5rem;  /* mb-6 → 24px */
+  font-size: 0.75rem;     /* text-xs → 12px */
+  line-height: 1rem;      /* text-xs line-height → 16px */
+  color: #6B7280;         /* text-gray-500 (Tailwind default) */
+}
+
+.sign-in-sign-up .cta-text {
+  margin-top: 1.5rem;     /* mt-6 → 24px */
+  text-align: center;     /* text-center */
+  font-size: 0.875rem;    /* text-sm → 14px */
+  line-height: 1.25rem;   /* text-sm line-height → 20px */
+}
+
+.sign-in-sign-up .google-button {
+  margin-top: 1rem;          /* mt-4 → 16px */
+  width: 100%;               /* w-full */
+  background-color: #ffffff; /* white background */
+  color: #444;               /* dark text */
+  padding: 0.5rem;           /* py-2 → 8px */
+  border-radius: 0.25rem;    /* rounded → 4px */
+  font-weight: 500;          /* medium weight */
+  text-align: center;        /* center text */
+  display: flex;             /* flex for logo + text */
+  align-items: center;       /* vertical align */
+  justify-content: center;   /* center content */
+  gap: 0.5rem;               /* spacing between logo and text */
+  border: 1px solid #ddd;    /* subtle border */
+  transition: background-color 0.2s ease;
+}
+
+.sign-in-sign-up .google-button:hover {
+  background-color: #f7f7f7; /* light hover effect */
+}
+
+.sign-in-sign-up .google-logo {
+  width: 20px;
+  height: 20px;
+}

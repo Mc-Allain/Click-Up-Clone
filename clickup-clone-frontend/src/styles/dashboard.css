@@ -1,0 +1,56 @@
+.dashboard .subtitle {
+  text-align: start;
+}
+
+.dashboard .subtitle h2 {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;    /* font-bold */
+}
+
+.dashboard .subtitle p {
+  color: #6B7280;     /* gray-500 muted */
+  font-weight: 600;    /* font-semibold */
+}
+
+.dashboard .btn {
+  display: flex;              /* flex */
+  align-items: center;        /* items-center */
+  gap: 0.5rem;                /* gap-2 → 8px */
+  padding: 0.5rem 1rem;       /* px-4 py-2 equivalent */
+  border-radius: 0.375rem;    /* rounded-md → 6px */
+  color: #ffffff;             /* text-white */
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.dashboard .btn:hover {
+  opacity: 0.9;
+}
+
+/* New Task */
+.dashboard .btn-task {
+  background: linear-gradient(to bottom, #5571E5, #4661D9);
+}
+
+/* New Project */
+.dashboard .btn-project {
+  background: linear-gradient(to bottom, #F48D45, #EA733B);
+}
+
+/* Invite Team */
+.dashboard .btn-invite {
+  background: linear-gradient(to bottom, #5DC17A, #4BAD6C);
+}
+
+/* View Reports */
+.btn-reports {
+  background: linear-gradient(to bottom, #664FC0, #493B9F);
+}
+
+.dashboard button .icon-8 {
+  height: 2rem;       /* h-8 → 32px */
+  width: 2rem;        /* w-8 → 32px */
+  color: white;
+  cursor: pointer;      /* cursor-pointer */
+}

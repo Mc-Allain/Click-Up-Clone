@@ -1,0 +1,13 @@
+.icon-6 {
+  height: 1.5rem;       /* h-6 → 24px */
+  width: 1.5rem;        /* w-6 → 24px */
+  color: #4B5563;       /* text-gray-600 */
+  cursor: pointer;      /* cursor-pointer */
+}
+
+.icon-4 {
+  height: 1rem;         /* h-4 → 16px */
+  width: 1rem;          /* w-4 → 16px */
+  color: #4B5563;       /* text-gray-600 */
+  cursor: pointer;      /* cursor-pointer */
+}
